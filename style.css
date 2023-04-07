@@ -74,7 +74,7 @@ header>div>ul>li>a {
 }
 
 .not_home {
-    background-image: url(./img/bg_menu.svg);
+    background-image: url(img/bg_menu.svg);
 }
 
 .home {
@@ -82,7 +82,7 @@ header>div>ul>li>a {
     height: calc(100vh - 80px);
     justify-content: center;
     align-items: center;
-    background-image: url(./img/backgrond-animated.svg);
+    background-image: url(img/backgrond-animated.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -320,7 +320,7 @@ header>div>ul>li>a {
 */
 @media screen and (min-width: 1441px) and (max-width: 3000px) {
     .home {
-        background-image: url(./img/cuatrok.svg);
+        background-image: url(img/cuatrok.svg);
     }
     .sobre-mi > figure > img {
         width: 25vw;
@@ -394,7 +394,7 @@ header>div>ul>li>a {
     }
 
     .home {
-        background-image: url(./img/mobileS.svg);
+        background-image: url(img/mobileS.svg);
     }
 
     .sobre-mi {
