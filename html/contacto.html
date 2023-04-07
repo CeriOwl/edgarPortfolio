@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../img/big_logo.png" type="image/x-icon">
+    <title>Portafolio Edgar</title>
+</head>
+<body>
+    <div class="container-global">
+        <header class="not_home">
+            <div>
+                <figure>
+                    <a title="Home" href="../index.html">
+                        <img src="../img/small_logo.png" alt="Logo Home">
+                    </a>
+                </figure>
+                <ul id="menu-down">
+                    <li><a title="Sobre mi" href="sobre_mi.html">Sobre mi</a></li>
+                    <li><a title="Servicios" href="servicios.html">Servicios</a></li>
+                    <li><a title="Tecnologías" href="tecnologias.html">Tecnologías</a></li>
+                    <li><a title="Social" href="social.html">Social</a></li>
+                    <li><a title="Contácto" href="contacto.html">Contácto</a></li>
+                </ul>
+                <img id="button-menu" src="../img/menu.png" alt="Menu icon">
+            </div>
+        </header>
+        <main class="contacto">
+            <div>
+                <h1>Contáctame</h1>
+                <form action="" method="post">
+                    <div>
+                        <div>
+                            <label for="email">Correo</label>
+                            <input type="email" name="email" id="email" autocomplete="none">
+                        </div>
+                        <div>
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="nombre" id="nombre" autocomplete="none">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="mensaje">Mensaje a enviar</label>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10" autocomplete="none"></textarea>
+                    </div>
+                    <button type="submit">Enviar mensaje</button>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script src="../app.js"></script>
+</body>
+</html>
